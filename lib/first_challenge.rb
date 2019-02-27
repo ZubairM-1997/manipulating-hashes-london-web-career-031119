@@ -16,15 +16,7 @@ def first_challenge
   #your code here
   contacts["Jon Snow"][:favorite_icecream_flavors].push("vanilla", "mint chip")
   
-  contacts.each do |person, data|
-    if person == "Freddy Mercury"
-      data.each do |attribute, value|
-        if attribute = :favorite_icecream_flavors
-          :favorite_icecream_flavors.delete_if{|x| x == "strawberry" }
-        end
-      end
-    end 
-  end 
+  contacts["Freddy Mercury"][:favorite_icecream_flavors].shift
           
       
 
