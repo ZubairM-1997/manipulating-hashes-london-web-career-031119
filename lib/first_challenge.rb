@@ -14,6 +14,11 @@ def first_challenge
   }
 
   #your code here
+  contacts["Jon Snow"][:favorite_icecream_flavors].push("vanilla", "mint chip")
+  
+  contacts["Freddy Mercury"][:favorite_icecream_flavors].shift
+          
+      
 
 
   #remember to return your newly altered contacts hash!
