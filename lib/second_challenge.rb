@@ -9,7 +9,7 @@ def second_challenge
   #code your solution here!
   groceries.each do |key,value|
     if value.is_a? Array
-      value.f
+      value.flatten
     
 
 end
