@@ -10,6 +10,8 @@ def second_challenge
   groceries.each do |key,value|
     if value.is_a? Array
       value.flatten
+    end 
+  end
     
 
 end
